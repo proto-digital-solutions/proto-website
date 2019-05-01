@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="581.656" height="581.656" viewBox="0 0 581.656 581.656">
+  <defs>
+    <linearGradient id="a" x1="570.381" y1="60.842" x2="-206.835" y2="700.252" gradientUnits="userSpaceOnUse">
+      <stop offset="0.005" stop-color="#0098d7"/>
+      <stop offset="1" stop-color="#97daf8"/>
+    </linearGradient>
+  </defs>
+  <title>Asset 5</title>
+  <circle cx="290.828" cy="290.828" r="290.828" fill="url(#a)"/>
+</svg>

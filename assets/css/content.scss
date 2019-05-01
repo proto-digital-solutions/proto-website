@@ -1,0 +1,809 @@
+//--------------------
+//--------------------
+//REQUISITES
+//--------------------
+//--------------------
+$color-dark: #1c1c1c;
+$color-header: #1c1c1c;
+$color-light: #efefef;
+$color-primary: #258ace;
+$color-secondary: #6efca4;
+//--------------------
+//--------------------
+//Color Hues
+//--------------------
+//--------------------
+
+//-----------------
+//Light color hues
+//--------------------
+$color-light-1: lighten($color-light, 10%);
+$color-light-2: lighten($color-light, 20%);
+$color-light-3: lighten($color-light, 30%);
+$color-light-4: lighten($color-light, 40%);
+$color-light-5: lighten($color-light, 50%);
+$color-light-6: lighten($color-light, 60%);
+$color-light-7: lighten($color-light, 70%);
+$color-light-8: lighten($color-light, 80%);
+$color-light-9: lighten($color-light, 90%);
+$color-light-10: lighten($color-light, 100%);
+//--------------------
+//Dark color hues
+//--------------------
+$color-dark-1: lighten($color-dark, 10%);
+$color-dark-2: lighten($color-dark, 20%);
+$color-dark-3: lighten($color-dark, 30%);
+$color-dark-4: lighten($color-dark, 40%);
+$color-dark-5: lighten($color-dark, 50%);
+$color-dark-6: lighten($color-dark, 60%);
+$color-dark-7: lighten($color-dark, 70%);
+$color-dark-8: lighten($color-dark, 80%);
+$color-dark-9: lighten($color-dark, 90%);
+$color-dark-10: lighten($color-dark, 100%);
+//--------------------
+//Primary color hues
+//--------------------
+$color-primary-1: lighten($color-primary, 10%);
+$color-primary-2: lighten($color-primary, 20%);
+$color-primary-3: lighten($color-primary, 30%);
+$color-primary-4: lighten($color-primary, 40%);
+$color-primary-5: lighten($color-primary, 50%);
+$color-primary-6: lighten($color-primary, 60%);
+$color-primary-7: lighten($color-primary, 70%);
+$color-primary-8: lighten($color-primary, 80%);
+$color-primary-9: lighten($color-primary, 90%);
+$color-primary-10: lighten($color-primary, 100%);
+//--------------------
+//Secondary color hues
+//--------------------
+$color-secondary-1: lighten($color-secondary, 10%);
+$color-secondary-2: lighten($color-secondary, 20%);
+$color-secondary-3: lighten($color-secondary, 30%);
+$color-secondary-4: lighten($color-secondary, 40%);
+$color-secondary-5: lighten($color-secondary, 50%);
+$color-secondary-6: lighten($color-secondary, 60%);
+$color-secondary-7: lighten($color-secondary, 70%);
+$color-secondary-8: lighten($color-secondary, 80%);
+$color-secondary-9: lighten($color-secondary, 90%);
+$color-secondary-10: lighten($color-secondary, 100%);
+//-----------------
+//--------------------
+//Main Colors
+//-----------------
+//--------------------
+$color-background: $color-light-10;
+$color-content: #efefef;
+//--------------------
+//--------------------
+//Other Variables
+//--------------------
+//--------------------
+$hero-height: 100vh;
+$overlay-offset: ($hero-height/1.5) - 10vh;
+
+
+//--------------------
+//--------------------
+//Global Classes
+//--------------------
+//--------------------
+
+
+//--------------------
+//--------------------
+//COLORS
+//--------------------
+//--------------------
+
+//--------------------
+//Light colors
+//--------------------=
+.color-light{
+    color: $color-light;
+}
+.color-light-1{
+    color: $color-light-1;
+}
+.color-light-2{
+    color: $color-light-2;
+}
+.color-light-3{
+    color: $color-light-3;
+}
+.color-light-4{
+    color: $color-light-4;
+}
+.color-light-5{
+    color: $color-light-5;
+}
+.color-light-6{
+    color: $color-light-6;
+}
+.color-light-7{
+    color: $color-light-7;
+}
+.color-light-8{
+    color: $color-light-8;
+}
+.color-light-9{
+    color: $color-light-9;
+}
+.color-light-10{
+    color: $color-light-10;
+}
+//--------------------
+//Dark colors
+//--------------------
+.color-dark{
+    color: $color-dark;
+}
+.color-dark-1{
+    color: $color-dark-1;
+}
+.color-dark-2{
+    color: $color-dark-2;
+}
+.color-dark-3{
+    color: $color-dark-3;
+}
+.color-dark-4{
+    color: $color-dark-4;
+}
+.color-dark-5{
+    color: $color-dark-5;
+}
+.color-dark-6{
+    color: $color-dark-6;
+}
+.color-dark-7{
+    color: $color-dark-7;
+}
+.color-dark-8{
+    color: $color-dark-8;
+}
+.color-dark-9{
+    color: $color-dark-9;
+}
+.color-dark-10{
+    color: $color-dark-10;
+}
+//--------------------
+//Primary colors
+//--------------------
+.color-primary{
+    color: $color-primary;
+}
+.color-primary-1{
+    color: $color-primary-1;
+}
+.color-primary-2{
+    color: $color-primary-2;
+}
+.color-primary-3{
+    color: $color-primary-3;
+}
+.color-primary-4{
+    color: $color-primary-4;
+}
+.color-primary-5{
+    color: $color-primary-5;
+}
+.color-primary-6{
+    color: $color-primary-6;
+}
+.color-primary-7{
+    color: $color-primary-7;
+}
+.color-primary-8{
+    color: $color-primary-8;
+}
+.color-primary-9{
+    color: $color-primary-9;
+}
+.color-primary-10{
+    color: $color-primary-10;
+}
+//--------------------
+//Secondary colors
+//--------------------
+.color-secondary{
+    color: $color-secondary;
+}
+.color-secondary-1{
+    color: $color-secondary-1;
+}
+.color-secondary-2{
+    color: $color-secondary-2;
+}
+.color-secondary-3{
+    color: $color-secondary-3;
+}
+.color-secondary-4{
+    color: $color-secondary-4;
+}
+.color-secondary-5{
+    color: $color-secondary-5;
+}
+.color-secondary-6{
+    color: $color-secondary-6;
+}
+.color-secondary-7{
+    color: $color-secondary-7;
+}
+.color-secondary-8{
+    color: $color-secondary-8;
+}
+.color-secondary-9{
+    color: $color-secondary-9;
+}
+.color-secondary-10{
+    color: $color-secondary-10;
+}
+//--------------------
+//--------------------
+//BACKGROUND COLORS
+//--------------------
+//--------------------
+
+//--------------------
+//Light backgrounds
+//--------------------
+.bg-light{
+    background-color: $color-light;
+}
+.bg-light-1{
+    background-color: $color-light-1;
+}
+.bg-light-2{
+    background-color: $color-light-2;
+}
+.bg-light-3{
+    background-color: $color-light-3;
+}
+.bg-light-4{
+    background-color: $color-light-4;
+}
+.bg-light-5{
+    background-color: $color-light-5;
+}
+.bg-light-6{
+    background-color: $color-light-6;
+}
+.bg-light-7{
+    background-color: $color-light-7;
+}
+.bg-light-8{
+    background-color: $color-light-8;
+}
+.bg-light-9{
+    background-color: $color-light-9;
+}
+.bg-light-10{
+    background-color: $color-light-10;
+}
+//--------------------
+//Dark backgrounds
+//--------------------
+.bg-dark{
+    background-color: $color-dark;
+}
+.bg-dark-1{
+    background-color: $color-dark-1;
+}
+.bg-dark-2{
+    background-color: $color-dark-2;
+}
+.bg-dark-3{
+    background-color: $color-dark-3;
+}
+.bg-dark-4{
+    background-color: $color-dark-4;
+}
+.bg-dark-5{
+    background-color: $color-dark-5;
+}
+.bg-dark-6{
+    background-color: $color-dark-6;
+}
+.bg-dark-7{
+    background-color: $color-dark-7;
+}
+.bg-dark-8{
+    background-color: $color-dark-8;
+}
+.bg-dark-9{
+    background-color: $color-dark-9;
+}
+.bg-dark-10{
+    background-color: $color-dark-10;
+}
+//--------------------
+//Primary backgrounds
+//--------------------
+.bg-primary{
+    background-color: $color-primary;
+}
+.bg-primary-1{
+    background-color: $color-primary-1;
+}
+.bg-primary-2{
+    background-color: $color-primary-2;
+}
+.bg-primary-3{
+    background-color: $color-primary-3;
+}
+.bg-primary-4{
+    background-color: $color-primary-4;
+}
+.bg-primary-5{
+    background-color: $color-primary-5;
+}
+.bg-primary-6{
+    background-color: $color-primary-6;
+}
+.bg-primary-7{
+    background-color: $color-primary-7;
+}
+.bg-primary-8{
+    background-color: $color-primary-8;
+}
+.bg-primary-9{
+    background-color: $color-primary-9;
+}
+.bg-primary-10{
+    background-color: $color-primary-10;
+}
+//--------------------
+//Secondary backgrounds
+//--------------------
+.bg-secondary{
+    background-color: $color-secondary;
+}
+.bg-secondary-1{
+    background-color: $color-secondary-1;
+}
+.bg-secondary-2{
+    background-color: $color-secondary-2;
+}
+.bg-secondary-3{
+    background-color: $color-secondary-3;
+}
+.bg-secondary-4{
+    background-color: $color-secondary-4;
+}
+.bg-secondary-5{
+    background-color: $color-secondary-5;
+}
+.bg-secondary-6{
+    background-color: $color-secondary-6;
+}
+.bg-secondary-7{
+    background-color: $color-secondary-7;
+}
+.bg-secondary-8{
+    background-color: $color-secondary-8;
+}
+.bg-secondary-9{
+    background-color: $color-secondary-9;
+}
+.bg-secondary-10{
+    background-color: $color-secondary-10;
+}
+//--------------------
+//Gradient backgrounds
+//--------------------
+.bg-gradient-light{
+    background: linear-gradient($color-light-1, $color-light-8);
+}
+.bg-gradient-dark{
+    background: linear-gradient($color-dark-1, $color-dark-4);
+        
+}
+.bg-gradient-primary{
+    background: linear-gradient($color-primary-1, $color-primary-4);
+}
+.bg-gradient-secondary{
+    background: linear-gradient($color-secondary-1, $color-secondary-4);
+}
+//--------------------
+//--------------------
+//END COLORS
+//--------------------
+//--------------------
+
+@mixin breakpoint($point) {
+    @if $point == desktop {
+        @media (min-width: 70em) { @content ; }
+    }
+    @else if $point == laptop {
+        @media (min-width: 64em) { @content ; }
+    }
+        @else if $point == tablet {
+        @media (min-width: 50em) { @content ; }
+    }
+    @else if $point == phablet {
+        @media (min-width: 37.5em)  { @content ; }
+    }
+    @else if $point == mobileonly {
+        @media (max-width: 37.5em)  { @content ; }
+
+    }
+}
+
+
+//--------------------
+//--------------------
+//Other Classes
+//--------------------
+//--------------------
+.hero{
+    @include breakpoint(laptop){
+        height: $hero-height; 
+    }
+    @include breakpoint(phablet){
+        height: calc($hero-height);
+    }
+    @include breakpoint(mobileonly){
+        height: calc($hero-height);
+    }
+
+    width: 100%;
+
+
+    .overlay{
+        @include breakpoint(laptop){
+            padding-top: $overlay-offset;
+        }
+        @include breakpoint(phablet){
+            padding-top: calc($overlay-offset);
+        }
+        @include breakpoint(mobileonly){
+            padding-top: calc($overlay-offset);
+        }
+    }
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-center{
+    display: block;
+    margin: auto;
+}
+
+.img-header{
+    width: 40%;
+    height: 40%;
+}
+
+//-----------------
+//Component Classes
+//-----------------
+
+*{
+    overflow-x: hidden;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+
+    background-color: $color-background;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    background-color: $color-background;
+
+    .arrow-down{
+        width: 5%;
+
+        margin-top: 0px;
+
+        transition: all 350ms ease;
+        &:hover{
+            margin-top: 10px;
+        }
+    }
+
+    .graphics{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+
+        z-index: 0;
+
+        .graphic-1{
+            position: absolute;
+            width: 10%;
+
+            z-index: 0;
+
+            @include breakpoint(laptop){
+                float: left;
+                left: 30%;
+                top: 14.5%;
+            }
+            @include breakpoint(phablet){
+                float: left;
+                left: 25%;
+                top: 11.5%;
+            }
+            @include breakpoint(mobileonly){
+                float: none;
+                left: 20%;
+                top: 8.75%;
+            }
+        }
+
+        .graphic-2{
+            position: absolute;
+            width: 20%;
+
+            z-index: 1;
+
+            @include breakpoint(laptop){
+                float: left;
+                left: 50%;
+                top: -15%;
+            }
+            @include breakpoint(phablet){
+                float: left;
+                left: 45%;
+                top: -10%;
+            }
+            @include breakpoint(mobileonly){
+                float: none;
+                left: 40%;
+                top: -10%;
+            }
+        }
+
+        .graphic-3{
+            position: absolute;
+
+            width: 15%;
+
+            z-index: 0;
+
+            @include breakpoint(laptop){
+                float: left;
+                left: 45%;
+                top: 25%;
+            }
+            @include breakpoint(phablet){
+                float: left;
+                left: 40%;
+                top: 20%;
+            }
+            @include breakpoint(mobileonly){
+                float: none;
+                left: 35%;
+                top: 20%;
+            }
+        }
+
+        .graphic-4{
+            position: absolute;
+            width: 30%;
+
+            @include breakpoint(laptop){
+                float: right;
+                top: 20%;
+                right: -20%;
+            }
+            @include breakpoint(phablet){
+                float: right;
+                top: 15%;
+                right: -15%;
+            }
+            @include breakpoint(mobileonly){
+                float: none;
+                top: 10%;
+                right: -10%;
+            }
+        }
+
+        .graphic-5{
+            position: absolute;
+            width: 15%;
+
+            @include breakpoint(laptop){
+                float: right;
+                top: 55%;
+                right: 5%;
+            }
+            @include breakpoint(phablet){
+                float: right;
+                top: 46%;
+                right: 3%;
+            }
+            @include breakpoint(mobileonly){
+                float: none;
+                top: 25%;
+                right: 5%;
+            }
+        }
+    }
+
+    .subtitle{
+        @include breakpoint(laptop){
+            font-size: 3rem !important;
+            font-weight: 300;
+        }
+        @include breakpoint(phablet){
+            font-size: 2rem !important;
+            font-weight: 300;
+        }
+        @include breakpoint(mobileonly){
+            font-size: 1.5rem !important;
+            font-weight: 300;
+        }
+    }
+
+    .work{
+        width: 100%;
+
+        margin: 1rem;
+
+        display: flex;
+
+        .work-panel{
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+
+            -webkit-box-shadow: 0px 0px 4px 2px rgba(28,28,28,0.36);
+            -moz-box-shadow: 0px 0px 4px 2px rgba(28,28,28,0.36);
+            box-shadow: 0px 0px 4px 2px rgba(28,28,28,0.36);
+
+            background-color: $color-background;
+
+            z-index: 0;
+
+            height: 500px;
+
+            @include breakpoint(laptop){
+                width: 25%;
+            }
+            @include breakpoint(phablet){
+                width: 33.33%;
+            }
+            @include breakpoint(mobileonly){
+                width: 100%;
+            }
+        }
+    }
+}
+
+nav{
+    .sidebar{
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        right: 0;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        
+        transition: all 0.3s ease; /* 0.5 second transition effect to slide in the sidenav */
+
+        float: right;
+
+        @media screen and (max-height: 450px) {
+            padding-top: 15px;
+        }
+
+        a{
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            display: block;
+            transition: all 0.2s ease;
+
+            color: #e7e7e7;
+
+            @media screen and (max-height: 450px) {
+                font-size: 18px;
+            }
+
+            &:hover{
+                color: #ffffff;
+            }
+        }
+
+        .closebtn{
+            position: absolute;
+            top: 0;
+            font-size: 45px;
+        }  
+    }
+}
+
+h1{
+    @media screen and (max-width: 400px) {
+        font-size: 2rem !important;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 3rem !important;
+    }
+    @media screen and (min-width: 900px) {
+        font-size: 4rem !important;
+    }
+}
+h2{
+    @media screen and (max-width: 400px) {
+        font-size: 1.75rem !important;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 2.3rem !important;
+    }
+    @media screen and (min-width: 900px) {
+        font-size: 3rem !important;
+    }
+}
+
+h3{
+    @media screen and (max-width: 400px) {
+        font-size: 1.25rem !important;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 2rem !important;
+    }
+    @media screen and (min-width: 900px) {
+        font-size: 2.7rem !important;
+    }
+}
+
+h4{
+    @media screen and (max-width: 400px) {
+        font-size: 1rem !important;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 1.7rem !important;
+    }
+    @media screen and (min-width: 900px) {
+        font-size: 2.3rem !important;
+    }
+}
+
+.whitespace{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.mail-link{
+    text-decoration: none;
+    color: $color-dark-1;
+
+    transition: color 250ms ease;
+
+    &:hover{
+        text-decoration: none;
+        color: $color-dark-3;
+    }
+}

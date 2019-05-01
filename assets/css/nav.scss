@@ -1,0 +1,115 @@
+//--------------------
+//--------------------
+//REQUISITES
+//--------------------
+//--------------------
+$color-dark: #1c1c1c;
+$color-header: #1c1c1c;
+$color-light: #efefef;
+$color-primary: #258ace;
+$color-secondary: #6efca4;
+$color-nav: rgba(255, 255, 255, 0.95);
+
+@mixin breakpoint($point) {
+    @if $point == desktop {
+        @media (min-width: 70em) { @content ; }
+    }
+    @else if $point == laptop {
+        @media (min-width: 64em) { @content ; }
+    }
+        @else if $point == tablet {
+        @media (min-width: 50em) { @content ; }
+    }
+    @else if $point == phablet {
+        @media (min-width: 37.5em)  { @content ; }
+    }
+    @else if $point == mobileonly {
+        @media (max-width: 37.5em)  { @content ; }
+
+    }
+}
+
+
+nav{
+    position: fixed;
+    width: 100%;
+
+    background-color: $color-nav;
+
+
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(28,28,28,0.36);
+    -moz-box-shadow: 0px 2px 3px 1px rgba(28,28,28,0.36);
+    box-shadow: 0px 2px 3px 1px rgba(28,28,28,0.36);
+
+    z-index: 15;
+    
+    @include breakpoint(laptop){
+        float: right;
+        height: 256px;
+    }
+    @include breakpoint(phablet){
+        float: right;
+        height: 128px;
+    }
+    @include breakpoint(mobileonly){
+        float: right;
+        height: 96px;
+    }
+
+    .brand{
+        height: 100%;
+
+        z-index: 10;
+
+
+        @include breakpoint(laptop){
+            padding-left: 5rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            width: 20%;
+            float: left;
+        }
+        @include breakpoint(phablet){
+            padding-left: 3rem;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            width: 35%;
+            float: left;
+        }
+        @include breakpoint(mobileonly){
+            padding-left: 1rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            width: 50%;
+            float: left;
+        }
+
+        img{
+            height: 100%;
+        }
+        
+    }
+
+    .contact{
+        background-color: $color-dark;
+
+        &:hover{
+
+        }
+    }
+
+    .widget{
+        height: 100%;
+        float: right;
+
+        @include breakpoint(laptop){
+
+        }
+        @include breakpoint(phablet){
+
+        }
+        @include breakpoint(mobileonly){
+
+        }
+    }
+}

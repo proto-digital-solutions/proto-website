@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="446.024" height="446.024" viewBox="0 0 446.024 446.024">
+  <defs>
+    <linearGradient id="a" x1="-47.51" y1="303.582" x2="504.545" y2="139.163" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#88bee7"/>
+      <stop offset="1" stop-color="#0098d7"/>
+    </linearGradient>
+  </defs>
+  <title>icon 2</title>
+  <g>
+    <circle cx="223.012" cy="223.012" r="223.012" fill="url(#a)"/>
+    <rect x="218.162" y="177.705" width="9.699" height="258.899" transform="translate(-84.143 530.167) rotate(-90)" fill="#fff"/>
+    <rect x="202.598" y="106.602" width="40.829" height="200.949" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+    <rect x="277.465" y="199.831" width="40.829" height="107.721" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+    <rect x="129.265" y="243.736" width="40.829" height="63.815" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+    <circle cx="223.012" cy="223.012" r="223.012" fill="url(#a)"/>
+    <rect x="218.162" y="177.705" width="9.699" height="258.899" transform="translate(-84.143 530.167) rotate(-90)" fill="#fff"/>
+    <rect x="202.598" y="106.602" width="40.829" height="200.949" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+    <rect x="277.465" y="199.831" width="40.829" height="107.721" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+    <rect x="129.265" y="243.736" width="40.829" height="63.815" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+  </g>
+</svg>
